@@ -2,7 +2,7 @@ html {
   position: relative;
   top: -15px;
   height: 102%;
-  width: 102%;
+  width: 104%;
   left: -15px;
   overflow: hidden;
   font-size: 16px;
@@ -173,7 +173,7 @@ body {
 @media (max-width: 575px) {
   .datadisplay-inner {
     min-width: 150px;
-    max-height: 75px;
+    max-height: 55px;
     bottom: 1%;
   }
   .datadisplay-inner div {
@@ -197,11 +197,11 @@ body {
     font-size: 12px;
   }
   .welcomediv h1 {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
   }
 
   .welcomediv p {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     width: 150px;
   }
 
@@ -219,6 +219,10 @@ body {
   }
   .links a {
     font-size: 12px;
+  }
+  #ggdescription {
+    font-size: 0.48rem;
+    color: black;
   }
 }
 
@@ -275,6 +279,10 @@ body {
     padding-top: 5px;
     font-size: 0.85em;
   }
+  #ggdescription {
+    font-size: 0.7rem;
+    color: black;
+  }
 }
 
 @media (min-width: 768px) {
@@ -309,6 +317,11 @@ body {
     font-size: 0.95rem;
     width: 195px;
   }
+  #ggdescription {
+    font-size: 0.7rem;
+    width: 190px;
+    color: black;
+  }
 }
 
 @media (min-width: 992px) {
@@ -338,6 +351,11 @@ body {
     font-size: 1.03rem;
     width: 195px;
   }
+  #ggdescription {
+    font-size: 0.7rem;
+
+    color: black;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -353,6 +371,11 @@ body {
     font-size: 1.1rem;
     width: 195px;
   }
+  #ggdescription {
+    font-size: 0.7rem;
+    width: 245px;
+    color: black;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -362,10 +385,16 @@ body {
   }
   .welcomediv h1 {
     font-size: 1.25rem;
+    width: 260px;
   }
 
   .welcomediv p {
-    font-size: 1.3rem;
-    width: 195px;
+    font-size: 1.17rem;
+    width: 280px;
+  }
+  #ggdescription {
+    font-size: 0.7rem;
+    width: 250px;
+    color: black;
   }
 }

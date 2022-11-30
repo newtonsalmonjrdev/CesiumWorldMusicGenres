@@ -32,6 +32,7 @@ const maximumzoomHeight = 4000000;
 let promise1 = [];
 
 window.onerror = stoperror;
+
 //Disabling timeline and animation widgets
 viewer.animation.container.style.visibility = "hidden";
 viewer.timeline.container.style.visibility = "hidden";
@@ -352,4 +353,5 @@ viewer.camera.flyTo({
   duration: 10,
   heading: 0,
 });
+
 console.log("© Copyright 2022");
